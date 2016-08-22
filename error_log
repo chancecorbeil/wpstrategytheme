@@ -1,6 +1,0 @@
-[19-Sep-2015 13:51:42 America/New_York] PHP Fatal error:  Call to undefined function post_password_required() in /home/wpsthsxd/public_html/wp-content/themes/wpstrategy/comments.php on line 16
-[27-Sep-2015 00:24:03 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/wpsthsxd/public_html/wp-content/themes/wpstrategy/index.php on line 14
-[01-Mar-2016 04:42:51 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/wpsthsxd/public_html/wp-content/themes/wpstrategy/author.php on line 13
-[01-Mar-2016 04:42:53 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/wpsthsxd/public_html/wp-content/themes/wpstrategy/404.php on line 8
-[12-Mar-2016 23:04:21 America/New_York] PHP Fatal error:  Call to undefined function add_action() in /home/wpsthsxd/public_html/wp-content/themes/wpstrategy/functions.php on line 72
-[12-Mar-2016 23:04:22 America/New_York] PHP Fatal error:  Call to undefined function dynamic_sidebar() in /home/wpsthsxd/public_html/wp-content/themes/wpstrategy/footer.php on line 28
