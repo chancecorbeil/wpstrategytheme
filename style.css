@@ -2146,13 +2146,13 @@ margin-bottom: 0;
     width: auto;
 }
 
-.woocommerce a.button.alt#place_order, 
-.woocommerce button.button.alt#place_order, 
-.woocommerce input.button.alt#place_order, 
+.woocommerce a.button.alt#place_order,
+.woocommerce button.button.alt#place_order,
+.woocommerce input.button.alt#place_order,
 .woocommerce #respond input#submit.alt#place_order,
-.woocommerce a.button.alt.checkout-button, 
-.woocommerce button.button.altcheckout-button, 
-.woocommerce input.button.altcheckout-button, 
+.woocommerce a.button.alt.checkout-button,
+.woocommerce button.button.altcheckout-button,
+.woocommerce input.button.altcheckout-button,
 .woocommerce #respond input#submit.altcheckout-button {
     color: #ffffff !important;
 background-color: #1b5e20;
@@ -2179,6 +2179,20 @@ margin: 0 3.8% 0 0;
 
 .woocommerce ul.products li.last, .woocommerce-page ul.products li.last {
     margin-right: 0;
+}
+
+.page-id-23 .woocommerce ul.products li.product{
+    width: auto;
+margin: 0 4% 0 0;
+width: 48%;
+}
+
+.page-id-23 .woocommerce ul.products li.product:last-of-type {
+margin: 0 0 0 0;
+}
+
+.page-id-23 .woocommerce ul.products li.product .button {
+	display: none;
 }
 
 .woocommerce ul.products li.product .button,
@@ -3488,8 +3502,9 @@ width: 100%;
 
 
 
+
+
 .DELETEMEsoon,
 .cart .actions {
 display: none;
 }
-
