@@ -2509,6 +2509,7 @@ border-color: #d3d3d3;
 
 .authorwidget img {
 	margin-bottom: 1em;
+	width: 100%;
 }
 
 .authorwidget a {
@@ -3391,6 +3392,8 @@ color: #ffffff;
 font-size: 1em;
 padding: 20px;
 margin-bottom: 1.5em;
+display: inline-block;
+width: 100%;
 }
 
 .intextfeature .btn {
@@ -3469,6 +3472,7 @@ color: #ffffff;
 
 .popup .popupphone {
 color: #ffc107;
+margin-top: 0.5em;
 }
 
 .blognav {

@@ -13,13 +13,13 @@
     right: 0;
     text-align: center;
     top: 0;
-    visibility: hidden; 
+    visibility: hidden;
     *zoom: 1;
     -moz-transition: all 0.25s;
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
-    -webkit-perspective: 1000px; 
-    -moz-perspective: 1000px; 
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
     perspective: 1000px;
 }
 .modality-inner {
@@ -52,7 +52,7 @@
     *zoom: 1;
 }
 .modality-outer[aria-hidden="false"] {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.85);
     opacity: 1;
     visibility: visible;
     z-index: 10000;
