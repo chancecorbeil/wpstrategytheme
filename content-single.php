@@ -11,7 +11,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content wrap">
-		<div class="col-lg-9 nopaddingleftdesktop primaryblogcontent">
+		<div class="col-lg-9 nocolpadl primaryblogcontent">
 
 		<?php the_content(); ?>
 		<?php
@@ -20,14 +20,6 @@
 				'after'  => '</div>',
 			) );
 		?>
-
-		<div class="entry-meta">
-
-		<?php if ( function_exists('yoast_breadcrumb') ) {
-			yoast_breadcrumb('<p id="breadcrumbs">','</p>');
-		} ?>
-		</div><!-- .entry-meta -->
-
 
 <div class="relatedposts">
 
@@ -47,18 +39,18 @@
 
     $my_query = new wp_query( $args );
     if( $my_query->have_posts() ) {
-    echo '<div id="related_posts"><h3>More Web Design Posts</h3>';
+    echo '<div id="related_posts"><h3>More Web Design Posts</h3><div class="row">';
     while( $my_query->have_posts() ) {
     $my_query->the_post();?>
 
-    <div class="col-md-4"><div class="relatedthumb"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a></div>
+		<div class="col-md-4"><div class="relatedthumb"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a></div>
     <div class="relatedcontent">
     <h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
     </div>
     </div>
     <?
     }
-    echo '</div>';
+    echo '</div></div>';
     }
     }
     $post = $orig_post;
@@ -77,7 +69,7 @@
 		<div class="col-lg-3 blog-sidebar-container nopaddingrightdesktop">
 
 		<?php the_post_thumbnail(medium); ?>
-			
+
 			<?php if ( ! dynamic_sidebar( 'blog-sidebar' ) ) : ?>
 			<?php endif; // end sidebar widget area ?>
 		</div>
@@ -109,6 +101,10 @@
 
 
 	</div><!-- .entry-content -->
+
+
+	<div class="entry-meta">
+	</div><!-- .entry-meta -->
 
 
 </article><!-- #post-## -->

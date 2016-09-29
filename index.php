@@ -16,20 +16,20 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-
+			<div class="entry-content wrap">
 
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
 
-			<h1 class="entry-title">Blog</h1>
+			<h1 class="entry-title">Website Tips and Studio Blog</h1>
 
 <div class="wrap textcenter">
 <div class="blognav">
-<a href="http://wpstrategy.com/category/how-to/" class="btn btn-medium alignleft">How To</a> 
-<a href="http://wpstrategy.com/category/wordpress/" class="btn btn-medium alignleft">WordPress</a> 
-<a href="http://wpstrategy.com/category/woocommerce/" class="btn btn-medium alignleft">WooCommerce</a> 
-<a href="http://wpstrategy.com/category/portland/" class="btn btn-medium alignleft">Portland</a> 
+<a href="http://wpstrategy.com/category/how-to/" class="btn btn-medium alignleft">How To</a>
+<a href="http://wpstrategy.com/category/wordpress/" class="btn btn-medium alignleft">WordPress</a>
+<a href="http://wpstrategy.com/category/woocommerce/" class="btn btn-medium alignleft">WooCommerce</a>
+<a href="http://wpstrategy.com/category/portland/" class="btn btn-medium alignleft">Portland</a>
 </div>
 </div>
 
@@ -52,6 +52,8 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
+
+			</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -16,7 +16,6 @@
 				<?php the_content(); ?>
 
 				<div class="noshow">
-					<span class="post_date date updated"><?php the_time('j F,Y'); ?></span>
 					<span class="vcard author">
 						<span class="fn"><?php the_author(); ?></span>
 					</span>

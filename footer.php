@@ -22,17 +22,17 @@ MORE WAS HERE (PHP)
 	<footer id="colophon" class="site-footer col-md-offset-3 col-lg-offset-2 col-md-9 col-lg-10" role="contentinfo">
 		<div class="wrap">
 
-				<div class="col-lg-4">
+				<div class="col-sm-4">
 				<?php if ( ! dynamic_sidebar( 'footer-widget-2' ) ) : ?>
 				<?php endif; // end sidebar widget area ?>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-sm-4">
 				<?php if ( ! dynamic_sidebar( 'footer-widget-3' ) ) : ?>
 				<?php endif; // end sidebar widget area ?>
 				</div>
 
 
-			<div class="col-md-4 fourthwidgetcontainer">
+			<div class="col-sm-4 fourthwidgetcontainer">
 				<?php if ( ! dynamic_sidebar( 'footer-widget-4' ) ) : ?>
 				<?php endif; // end sidebar widget area ?>
 			</div>
@@ -51,7 +51,7 @@ MORE WAS HERE (PHP)
     <div id="yourModalId" class="yourModalClass popup" role="dialog" aria-labelledby="yourModalHeading" style="display:none;" >
 
 				<div class="leadformcontainerandtitle">
-				<h2>Need a developer? Let’s talk.</h2>
+				<h2>Need a website? Let’s talk.</h2>
 				<div class="leadformcontainer">
 				<?php echo do_shortcode('[contact-form-7 id="15" title="Contact form 1"]'); ?>
 				</div>

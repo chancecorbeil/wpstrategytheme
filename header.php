@@ -34,7 +34,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Begin anchor menu on services page -->
 <script>
 function checkOffset() {
-    if($('#serviceitemsjumplist').offset().top + $('#serviceitemsjumplist').height() 
+    if($('#serviceitemsjumplist').offset().top + $('#serviceitemsjumplist').height()
                                            >= $('.entry-footer').offset().top - 10)
         $('#serviceitemsjumplist').css('position', 'absolute');
     if($(document).scrollTop() + window.innerHeight < $('.entry-footer').offset().top)
@@ -61,12 +61,12 @@ $(document).scroll(function() {
 				<div class="logowrap">
 					<?php if(is_front_page()) : ?>
 					<!--  This is a homepage -->
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="https://wpstrategy.com/wp-content/uploads/2015/03/wp-strategy.png" alt="WP Strategy" width="160" height="260" class="aligncenter size-medium wp-image-63" /></a><span class="hidetitle">WP Strategy</span></h1>
+					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="http://wpstrategy.com/wp-content/uploads/2015/03/wp-strategy.png" alt="WP Strategy" width="160" height="260" class="aligncenter size-medium wp-image-63" /></a><span class="hidetitle">WP Strategy</span></h1>
 					<?php endif; ?>
 
 					<?php if(!is_front_page()) : ?>
 					<!-- This is not a homepage -->
-					<h2 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="https://wpstrategy.com/wp-content/uploads/2015/03/wp-strategy.png" alt="WP Strategy web design" width="160" height="260" class="aligncenter size-medium wp-image-63" /></a></h2>
+					<h2 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="http://wpstrategy.com/wp-content/uploads/2015/03/wp-strategy.png" alt="WP Strategy web design" width="160" height="260" class="aligncenter size-medium wp-image-63" /></a></h2>
 					<?php endif; ?>
 
 
@@ -84,7 +84,7 @@ $(document).scroll(function() {
 						<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				</nav><!-- #site-navigation -->
 
-<a href="#yourModalId" aria-label="open" class="btn btn-medium aligncenter navcta">Let us help you</a>
+<a href="#yourModalId" aria-label="open" class="btn btn-medium aligncenter navcta">Hire us</a>
 
 
 			</div>
@@ -94,4 +94,3 @@ $(document).scroll(function() {
 
 
 	<div id="content" class="site-content col-md-9 col-lg-10">
-
