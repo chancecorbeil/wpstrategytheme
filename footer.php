@@ -61,6 +61,20 @@ MORE WAS HERE (PHP)
     </div>
 
 
+		<!-- Contact Form Popup -->
+			<div id="hello-developers" class="hellodevelopers popup" role="dialog" aria-labelledby="yourModalHeading" style="display:none;" >
+
+					<div class="leadformcontainerandtitle">
+					<h2>Need a website? Let’s talk.</h2>
+					<div class="leadformcontainer">
+					<?php echo do_shortcode('[contact-form-7 id="15" title="Contact form 1"]'); ?>
+					</div>
+					</div>
+
+	<h2 class="popupphone">or call (503) 893-4705</h2>
+			</div>
+
+
 <!-- Chrome, Firefox OS and Opera -->
 <meta name="theme-color" content="#03A9F4">
 <!-- Windows Phone -->
@@ -99,6 +113,8 @@ jQuery('.entry-content h2').fitText(1.6, { minFontSize: '26px', maxFontSize: '40
 <script>$('#yourModalId').modality( {effect:'slide-up'} );</script> -->
 <!-- JavaScript  -->
 <script>Modality.init( '#yourModalId', {effect:'slide-up'} );</script>
+<script>Modality.init( '#hello-developers', {effect:'slide-up'} );</script>
+
 <!-- End Modal -->
 
 <!-- Google Tag Manager -->

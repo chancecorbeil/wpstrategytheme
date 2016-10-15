@@ -1425,6 +1425,14 @@ text-align: center;
  {
 }
 
+.sidebar .linelist li {
+    line-height: 0;
+}
+
+.sidebar .linelist li .sitetitle {
+	line-height: 1em;
+}
+
 .byline,
 .updated {
 	display: none;
@@ -3349,7 +3357,7 @@ color: #01579b;
 .serviceitem .itembottom img {
   float: left;
   display: block;
-padding-top: 15px;
+padding-top: 9px;
 }
 
 .serviceitem .itembottom p {

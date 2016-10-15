@@ -388,3 +388,9 @@ add_action( 'woocommerce_after_single_product_summary', 'woocommerce_show_produc
 // Remove product images from cart
 
 add_filter( 'woocommerce_cart_item_thumbnail', '__return_false' );
+
+// Images - Add image sizes
+
+add_image_size( 'linelist', 40, 40 ); // 40 pixels wide by 40 pixels tall, soft proportional crop mode
+
+add_image_size( 'serviceitem', 103, 103 ); // 40 pixels wide by 40 pixels tall, soft proportional crop mode
