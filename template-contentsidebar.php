@@ -15,13 +15,8 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 <div class="wrap">
-<div class="col-md-8 nocolpadl">
-				<?php get_template_part( 'content', 'page' ); ?>
-</div>
 
-<div class="sidebar col-md-4 nocolpadr">
-				<?php get_sidebar(); ?>
-</div>
+				<?php get_template_part( 'content', 'pagesidebarright' ); ?>
 
 
 </div>

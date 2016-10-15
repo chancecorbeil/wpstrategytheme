@@ -198,7 +198,8 @@ h1.entry-title, h1.page-title {
 
 .page-id-21 h1,
 #post-21 h1,
-.blog h1 {
+.blog h1,
+.archive.category h1 {
 	text-align: center;
 }
 
@@ -664,6 +665,10 @@ p a {
 
 .serviceitem h2 a {
     color: #01579b;
+}
+
+.serviceitem h2 a:hover {
+    color: #03A9F4;
 }
 
 .site-content a {
@@ -1351,7 +1356,7 @@ display: inline-block;
 			clear: left;
 }
 
-.blog .post.hentry:nth-of-type(2n) {
+.blog .post.hentry:nth-of-type(2n), .archive .post.hentry:nth-of-type(2n), .archive article.boilerplates:nth-of-type(2n), .archive article.snippets:nth-of-type(2n) {
     margin-left: 1%;
 		margin-right: 0;
 		clear: right;
@@ -2875,6 +2880,11 @@ display: none;
 background-color: #01579b !important;
 }
 
+.homefeaturetext {
+    padding-top: 20px;
+		padding-bottom: 20px;
+}
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -2922,12 +2932,6 @@ h1.entry-title {
 
 .socialicons {
     margin-top: 0;
-}
-
-.homefeaturetext {
-    background: #01579b none repeat scroll 0 0;
-    padding-top: 20px;
-		padding-bottom: 20px;
 }
 
 .site-description {
@@ -3284,7 +3288,6 @@ clear: left;
 
 .site-footer li {
 list-style-type: none;
-padding-top: 0.7em;
 color: #ffc107;
 }
 
@@ -3503,6 +3506,11 @@ background-color: #3276b1;
 background-color: #00A99D;
 }
 
+.intextfeature.bgteal:hover {
+background-color: #01579B;
+color: #ffffff;
+}
+
 header .shiftnav-toggle-shiftnav-main {
 font-weight: bold;
 border-radius: 3px;
@@ -3660,4 +3668,8 @@ margin-bottom: 1.5em;
 
 .relatedposts h3 {
 	font-size: 16px;
+}
+
+.taxonomy-description {
+	text-align: center;
 }

@@ -100,6 +100,15 @@ get_header(); ?>
 
 		<?php endif; ?>
 
+		<div class="wrap textcenter">
+		<div class="blognav">
+		<a href="http://wpstrategy.com/category/how-to/" class="btn btn-medium alignleft">How To</a>
+		<a href="http://wpstrategy.com/category/wordpress/" class="btn btn-medium alignleft">WordPress</a>
+		<a href="http://wpstrategy.com/category/woocommerce/" class="btn btn-medium alignleft">WooCommerce</a>
+		<a href="http://wpstrategy.com/category/portland/" class="btn btn-medium alignleft">Portland</a>
+		</div>
+		</div>
+
 	</div>
 
 		</main><!-- #main -->
