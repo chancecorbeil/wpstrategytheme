@@ -88,7 +88,7 @@
 		<div class="leadformcontainerandtitle">
 		<h2>Need a developer? Let’s talk.</h2>
 		<div class="leadformcontainer">
-		<?php echo do_shortcode('[contact-form-7 id="15" title="Contact form 1"]'); ?>
+		<?php echo do_shortcode('[contact-form-7 id="15" title="Contact WP Strategy"]'); ?>
 		</div>
 		</div>
 
@@ -97,7 +97,7 @@
 				<?php if ( function_exists('yoast_breadcrumb') ) {
 					yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 				} ?>
-				</div><!-- .entry-meta -->	
+				</div><!-- .entry-meta -->
 
 		</div>
 

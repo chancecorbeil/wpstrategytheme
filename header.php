@@ -21,20 +21,6 @@
 
 <body <?php body_class(); ?>>
 
-<!-- Begin anchor menu on services page -->
-<script>
-function checkOffset() {
-    if($('#serviceitemsjumplist').offset().top + $('#serviceitemsjumplist').height()
-                                           >= $('.entry-footer').offset().top - 10)
-        $('#serviceitemsjumplist').css('position', 'absolute');
-    if($(document).scrollTop() + window.innerHeight < $('.entry-footer').offset().top)
-        $('#serviceitemsjumplist').css('position', 'fixed'); // restore when you scroll up
-    $('#serviceitemsjumplist').text($(document).scrollTop() + window.innerHeight);
-}
-$(document).scroll(function() {
-    checkOffset();
-});
-</script>
 
 <script src="https://use.typekit.net/dmi8ydg.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -46,7 +32,9 @@ $(document).scroll(function() {
 
 		<header id="masthead" class="site-header col-md-3 col-lg-2 sidemenu" role="banner">
 
-			<div class="site-wrap col-md-3 col-lg-2">
+			<div class="wrap-small">
+
+				<div class="site-wrap col-md-3 col-lg-2">
 
 				<div class="logowrap">
 					<?php if(is_front_page()) : ?>
@@ -74,8 +62,10 @@ $(document).scroll(function() {
 						<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				</nav><!-- #site-navigation -->
 
-<a href="#yourModalId" aria-label="open" class="btn btn-medium aligncenter navcta">Hire us</a>
+<a href="#hello-developers" aria-label="open" class="btn btn-medium aligncenter navcta">Hire us</a>
 
+
+			</div>
 
 			</div>
 

@@ -53,7 +53,7 @@ MORE WAS HERE (PHP)
 				<div class="leadformcontainerandtitle">
 				<h2>Need a website? Let’s talk.</h2>
 				<div class="leadformcontainer">
-				<?php echo do_shortcode('[contact-form-7 id="15" title="Contact form 1"]'); ?>
+				<?php echo do_shortcode('[contact-form-7 id="15" title="Contact WP Strategy"]'); ?>
 				</div>
 				</div>
 
@@ -67,7 +67,7 @@ MORE WAS HERE (PHP)
 					<div class="leadformcontainerandtitle">
 					<h2>Need a website? Let’s talk.</h2>
 					<div class="leadformcontainer">
-					<?php echo do_shortcode('[contact-form-7 id="15" title="Contact form 1"]'); ?>
+					<?php echo do_shortcode('[contact-form-7 id="15" title="Contact WP Strategy"]'); ?>
 					</div>
 					</div>
 
@@ -126,6 +126,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KSHW6H');</script>
 <!-- End Google Tag Manager -->
+
+<!-- Begin anchor menu on services page -->
+<script>
+function checkOffset() {
+    if($('#serviceitemsjumplist').offset().top + $('#serviceitemsjumplist').height()
+                                           >= $('.entry-footer').offset().top - 10)
+        $('#serviceitemsjumplist').css('position', 'absolute');
+    if($(document).scrollTop() + window.innerHeight < $('.entry-footer').offset().top)
+        $('#serviceitemsjumplist').css('position', 'fixed'); // restore when you scroll up
+    $('#serviceitemsjumplist').text($(document).scrollTop() + window.innerHeight);
+}
+$(document).scroll(function() {
+    checkOffset();
+});
+</script>
 
 
 </body>

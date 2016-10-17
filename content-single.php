@@ -43,7 +43,7 @@
     while( $my_query->have_posts() ) {
     $my_query->the_post();?>
 
-		<div class="col-md-4"><div class="relatedthumb"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a></div>
+		<div class="col-xs-4"><div class="relatedthumb"><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a></div>
     <div class="relatedcontent">
     <h3><a href="<? the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
     </div>
@@ -66,7 +66,7 @@
 		<?php chancedotcom_post_nav(); ?>
 		</div>
 
-		<div class="col-lg-3 blog-sidebar-container nopaddingrightdesktop">
+		<div class="col-lg-3 blog-sidebar-container sidebar nopaddingrightdesktop">
 
 		<?php the_post_thumbnail(medium); ?>
 
